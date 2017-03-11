@@ -138,8 +138,9 @@ Pour télécharger dernière version 4 :
 Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
 Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
 Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
-JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s  
-JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI 
+JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin
+2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
+JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI
 
 ### Media Manager
 
