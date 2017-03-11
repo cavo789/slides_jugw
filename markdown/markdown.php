@@ -67,8 +67,7 @@ $folder=getParam('folder', 'string', '', false, 20);
 		
 if (!file_exists($filename=dirname(dirname(__FILE__)).'/slides/'.$folder.'/summary.md')) 
 {
-	echo $folder.'/summary.md doesn\'t exists';
-	die();
+	die('Sorry, the file '.$folder.'/summary.md doesn\'t exists.');
 }
 
 // Load the template
@@ -78,7 +77,7 @@ if (!file_exists($filename=dirname(dirname(__FILE__)).'/slides/'.$folder.'/summa
 
 $markdown=file_get_contents($filename);
 
-require_once('parsedown/parsedown.php');
+require_once(dirname(__FILE__).'/parsedown/Parsedown.php');
 $Parsedown=new \Parsedown();
 $summary=$Parsedown->text($markdown);
 unset($Parsedown);
