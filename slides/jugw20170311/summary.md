@@ -4,6 +4,8 @@ La présentation générale de la journée se trouve sur https://slides.jugwallo
 
 ## Présentation sécurité - hacking
 
+<img src="img/jurgen.jpg"></img>
+
 La présentation de Jurgen est disponible sur Slideshare : https://www.slideshare.net/JurgenGaeremyn/l33t-h4x0rz.
 
 Jurgen revient sur l'état d'esprit de certaines personnes : "*Pourquoi un hacker viendrait-il hacker mon site de l'école de Vilvoorde ?*".  L'idée tellement généralisée et fausse que les hackeurs viennent pirater uniquement des sites "intéressants" alors que les hackeurs sont, d'abord, des robots, des scripts, qui hackent à tout va à la recherche d'un site failible pour, ensuite, en exploiter ses ressources (envoi de spam, vol de réputation SEO, phising, ...).
@@ -46,9 +48,7 @@ Jurgen recommande l'utilisation de logiciel type VPN qui permettent de crypter t
 * Et, last but not least, éduquez votre ... PEBCAK (https://fr.wiktionary.org/wiki/PEBCAK),
 * ...
 
-
-
-**CHRISTOPHE : Mettre le lien de l'ANSI publié récemment sur FB**
+Lire aussi le [GUIDE D’HYGIÈNE INFORMATIQUE / Renforcer la sécurité de son système d'information en 42 mesures](https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf)
 
 ## Présentation Joomla 3.7 / Preview Joomla 4
 
@@ -60,65 +60,64 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 
 ### Joomla 3.7 > sources officielles
 
-https://www.joomla.org/3 
-https://www.joomla.org/announcements/release-news/5699-the-next-version-of-joomla-is-just-around-the-corner.html 
-https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
-https://docs.joomla.org/J3.x:Adding_custom_fields 
-https://docs.joomla.org/J3.x:Multilingual_Associations 
-https://docs.joomla.org/J3.x:Joomla_3.7_Imagery
-https://github.com/joomla/joomla-cms/pull/13036 Menu manager for Joomla Backend Menu
-https://github.com/joomla/joomla-cms/pull/13537 Gestion multilangue
-https://github.com/joomla/joomla-cms/releases
+* https://www.joomla.org/3 
+* https://www.joomla.org/announcements/release-news/5699-the-next-version-of-joomla-is-just-around-the-corner.html 
+* https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
+* https://docs.joomla.org/J3.x:Adding_custom_fields 
+* https://docs.joomla.org/J3.x:Multilingual_Associations 
+* https://docs.joomla.org/J3.x:Joomla_3.7_Imagery
+* https://github.com/joomla/joomla-cms/pull/13036 Menu manager for Joomla Backend Menu
+* https://github.com/joomla/joomla-cms/pull/13537 Gestion multilangue
+* https://github.com/joomla/joomla-cms/releases
 
 ### Joomla 3.7 > en résumé
 
-https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
-Which bugs have been fixed in Joomla! 3.7?
-A full list of issues resolved can be found on GitHub.
-What’s new in Joomla! 3.7
-The big question is, what is new in Joomla! 3.7?
-Here are some of the new features…
-Custom Fields - Now you can add data fields (up to 16 different types) to your articles, user records and contacts
-Multilingual Associations Component - Allows you to easily translate your content from one interface
-Improved Workflow - Now you can create the category, article, and menu item all in one step (no more jumping between components/views)
-Improved Router - Get 'clean' URLs (without the ID) to help improve your SEO with one click of a button
-Admin Menu Manager - Manage the admin menu just like the front-end, create a different 'look' for each user group
-Do more with TinyMCE - New buttons allow you to easily add menu links, contacts and newsfeeds directly to articles and modules
-Easier Extension Maintenance - Allowing you to block administrators from accidentally uninstalling needed extension package pieces
-And many more ...
+*  https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
+* Which bugs have been fixed in Joomla! 3.7?
+* A full list of issues resolved can be found on GitHub.
+* What’s new in Joomla! 3.7
+* The big question is, what is new in Joomla! 3.7?
+* Here are some of the new features…
+* Custom Fields - Now you can add data fields (up to 16 different types) to your articles, user records and contacts
+* Multilingual Associations Component - Allows you to easily translate your content from one interface
+* Improved Workflow - Now you can create the category, article, and menu item all in one step (no more jumping between components/views)
+* Improved Router - Get 'clean' URLs (without the ID) to help improve your SEO with one click of a button
+* Admin Menu Manager - Manage the admin menu just like the front-end, create a different 'look' for each user group
+* Do more with TinyMCE - New buttons allow you to easily add menu links, contacts and newsfeeds directly to articles and modules
+* Easier Extension Maintenance - Allowing you to block administrators from accidentally uninstalling needed extension package pieces
+* And many more ...
 
 ### Joomla 3.7 > source JoomlaShack
 
-https://www.joomlashack.com/blog/tutorials/new-urls 
-https://www.joomlashack.com/blog/tutorials/custom-fields (intro)
-https://www.joomlashack.com/blog/tutorials/fields-joomla (details)
-https://www.joomlashack.com/blog/tutorials/multilingual-associations-manager 
-https://www.joomlashack.com/blog/tutorials/joomla-37-release (other features) + The stable release of Joomla 3.7 is due on March 28th, 2017
+* https://www.joomlashack.com/blog/tutorials/new-urls 
+* https://www.joomlashack.com/blog/tutorials/custom-fields (intro)
+* https://www.joomlashack.com/blog/tutorials/fields-joomla (details)
+* https://www.joomlashack.com/blog/tutorials/multilingual-associations-manager 
+* https://www.joomlashack.com/blog/tutorials/joomla-37-release (other features) + The stable release of Joomla 3.7 is due on March 28th, 2017
 
 ### Joomla 3.7 > source Brian Teeman
 
-https://brian.teeman.net/joomla/874-first-looks-joomla-3-7-router 
-https://brian.teeman.net/joomla/875-first-looks-joomla-3-7-its-not-about-the-cash 
-https://brian.teeman.net/joomla/869-coming-soon-or-offline 
+* https://brian.teeman.net/joomla/874-first-looks-joomla-3-7-router 
+* https://brian.teeman.net/joomla/875-first-looks-joomla-3-7-its-not-about-the-cash 
+* https://brian.teeman.net/joomla/869-coming-soon-or-offline 
 
 ### Joomla 3.7 > sources diverses
 
-http://joomanji.fr/les-nouveautes *Compile 22 nouveautés – en français !!!*
-https://crowdin.com/project/joomla-3-landing-page 
-https://joomlaseo.com/blog/creating-multi-language-websites-got-even-easier-in-joomla-3-7 
-https://www.joomshaper.com/blog/joomla-3-7-to-get-custom-fields-url-router-and-more-features 
-http://sellacious.com/blog/what-to-expect-in-joomla-version-3-7.html 
+* http://joomanji.fr/les-nouveautes *Compile 22 nouveautés – en français !!!*
+* https://crowdin.com/project/joomla-3-landing-page 
+* https://joomlaseo.com/blog/creating-multi-language-websites-got-even-easier-in-joomla-3-7 
+* https://www.joomshaper.com/blog/joomla-3-7-to-get-custom-fields-url-router-and-more-features 
+* http://sellacious.com/blog/what-to-expect-in-joomla-version-3-7.html 
 
 ### Joomla 3.7 > sources vidéos
 
-https://www.youtube.com/watch?v=NtwDE5Paxd0 vidéo officielle de présentation de J!3.7
-https://www.youtube.com/watch?v=F_Ni15icn1U Custom Fields (JoomlaDay Austria Dec 2016) 38 min. 
-https://www.youtube.com/watch?v=W-yAr8yLKqo J!3.7 New Feature Preview by Brian Teeman - JoomlaDay Israel 2016 Sept 2016
+* https://www.youtube.com/watch?v=NtwDE5Paxd0 vidéo officielle de présentation de J!3.7
+* https://www.youtube.com/watch?v=F_Ni15icn1U Custom Fields (JoomlaDay Austria Dec 2016) 38 min. 
+* https://www.youtube.com/watch?v=W-yAr8yLKqo J!3.7 New Feature Preview by Brian Teeman - JoomlaDay Israel 2016 Sept 2016
 
 ### Joomla 3.8
 
-
-https://developer.joomla.org/news/670-production-department-team-lead-meeting.html
+* https://developer.joomla.org/news/670-production-department-team-lead-meeting.html
 
 During the London Super Sprint, discussions regarding the 3.x end of support were started and a working plan was established that 3.8 will be the final release of the series. The department reaffirmed it supports this plan as long as 4.0 releases close to 3.8. Given the current plan for 3.8 and 4.0, the department coordinator states that the two releases should come simultaneously and as such this should not be an issue. Per the current project development strategy, a proper announcement of this must be published six months before 3.8.0 is released. Some discussion on the release timeline started, the department coordinator believes that 3.8 and 4.0 will probably not reach a stable milestone until at least six months after 3.7 is released. The department will work on the required announcement and publish it per the development strategy.
 
@@ -127,23 +126,24 @@ A weakness the department’s teams has identified is the lack of a cohesive roa
 
 ### Joomla 4.0 dev
 
-Pour télécharger dernière version 4
-https://developer.joomla.org/nightly-builds.html
+Pour télécharger dernière version 4 : 
 
-https://github.com/joomla/joomla-cms/tree/4.0-dev
-https://github.com/joomla/joomla-cms/milestone/5 
-https://pcmshaper.com/blog/news/joomla-4-0-or-next-joomla-platform-roadmap
+* https://developer.joomla.org/nightly-builds.html
+* https://github.com/joomla/joomla-cms/tree/4.0-dev
+* https://github.com/joomla/joomla-cms/milestone/5 
+* https://pcmshaper.com/blog/news/joomla-4-0-or-next-joomla-platform-roadmap
 
-Documentation
+#### Documentation
+
 Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
-le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
+Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
 Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
 JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s  
 JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI 
 
 ### Media Manager
 
-avec la roadmap (pas sûr qu'elle soit à jour) https://github.com/joomla-projects/media-manager-improvement/wiki 
+Avec la roadmap (pas sûr qu'elle soit à jour) https://github.com/joomla-projects/media-manager-improvement/wiki 
 
 ### Joomla X
 
