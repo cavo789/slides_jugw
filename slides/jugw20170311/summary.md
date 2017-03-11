@@ -64,6 +64,7 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 * https://www.joomla.org/announcements/release-news/5699-the-next-version-of-joomla-is-just-around-the-corner.html 
 * https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
 * https://docs.joomla.org/J3.x:Adding_custom_fields 
+* https://docs.joomla.org/J3.x:Adding_custom_fields/What_components_are_supporting_custom_fields
 * https://docs.joomla.org/J3.x:Multilingual_Associations 
 * https://docs.joomla.org/J3.x:Joomla_3.7_Imagery
 * https://github.com/joomla/joomla-cms/pull/13036 Menu manager for Joomla Backend Menu
@@ -134,8 +135,7 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 	* Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
 	* Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
 	* Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
-	* JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin
-	* 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
+	* JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
 	* JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI
 
 ### Media Manager
