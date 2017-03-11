@@ -15,17 +15,23 @@
 
 		<link media="screen" rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css" />
 		<link media="screen" rel="stylesheet" type="text/css" href="libs/font-awesome/css/font-awesome.min.css" />
+		<link media="screen" rel="stylesheet" type="text/css" href="assets/css/markdown.css" />
 
 	</head>
 
 	<body>
 
 		<div class="container">
-			<div class="row">
-				%CONTENT%
-			</div>
+			<article id="top">
+				<div class="all-questions">
+					%CONTENT%
+				</div>
+			</article>
 		</div>
-
+		
+		<script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/js/markdown.js"></script>
+      
 	</body>
 	
 </html>   
