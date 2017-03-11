@@ -53,3 +53,23 @@ h3:target {
 	max-width: 660px;
 	border : 2px solid #5091cd;
 }
+
+h1 { 	
+	margin-bottom:15px;
+	padding-bottom:5px;
+    border-bottom: 2px solid #5091cd;
+	
+}
+footer { 
+margin-top:25px;
+	width: 100%;        
+	display: table; 
+	background-color:rgba(87, 138, 213, 0.2);
+	border: 2px solid #5091cd;
+}
+footer img {
+	margin: 25px auto 25px auto; 
+	display: block;
+}
+
+footer > ul.list-inline li { margin-right : 40px; }

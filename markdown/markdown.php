@@ -64,7 +64,9 @@ function getParam(string $name,	string $type = 'string', $default = '',	bool $ba
 	
 // Max size 20	
 $folder=getParam('folder', 'string', '', false, 20);
-		
+// Sanitize : keep only letters, figures, minus and underscore; nothing else
+$folder = preg_replace('/[^-a-zA-Z0-9_]/', '', $folder);	
+
 if (!file_exists($filename=dirname(dirname(__FILE__)).'/slides/'.$folder.'/summary.md')) 
 {
 	die('Sorry, the file '.$folder.'/summary.md doesn\'t exists.');
@@ -96,7 +98,7 @@ try {
 
 /*
  * Create a table of content.  Loop each h2 and h3 and add an "id" like "h2_1", "h2_2", ... that will then
- * be used in javascript
+ * be used in javascript (see https://css-tricks.com/automatic-table-of-contents/)
  */
 
 $matches=array();
@@ -127,7 +129,7 @@ foreach ($arr as $head)
 $summary=str_replace('<ul>','<ul class="fa-ul">',$summary);
 $summary=str_replace('<li>','<li><i class="fa-li fa fa-joomla"></i>',$summary);
 
-$summary=str_replace('<img src="','<img class="fullimg" src="../slides/'.$folder.'/',$summary);
+$summary=str_replace('<img src="','<img class="fullimg hidden-xs hidden-sm" src="../slides/'.$folder.'/',$summary);
 
 
 // And use our own template

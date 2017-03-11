@@ -23,12 +23,17 @@
 
 		<div class="container">
 			<article id="top">
-				<div class="all-questions">
-					%CONTENT%
-				</div>
+				%CONTENT%
+				<footer class="hidden-xs hidden-sm">
+					<img src="http://slides.jugwallonie.be/img/logo.png" width="424" height="65" alt="JUG Wallonie"/>
+					<ul class="fa-ul list-inline">
+						<li><i class="fa-li fa fa-home"></i><a href="https://jugwallonie.be">jugwallonie.be</a></li>
+						<li><i class="fa-li fa fa-facebook-official"></i><a href="https://www.facebook.com/groups/joomla.belgique" target="_blank" rel="nofollow noopener noreferrer">Joomla! User Group Wallonie</a></li>
+						<li><i class="fa-li fa fa-desktop"></i><a href="https://slides.jugwallonie.be" target="_blank" rel="noopener noreferrer">slides.jugwallonie.be</a></li>
+					</ul>
+				</footer>
 			</article>
 		</div>
-		
 		<script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/markdown.js"></script>
       

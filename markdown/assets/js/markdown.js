@@ -1,7 +1,7 @@
 /*@url : https://css-tricks.com/automatic-table-of-contents/ */
 
 var ToC =
-  "<nav role='navigation' class='table-of-contents'>" +
+  "<nav role='navigation' class='table-of-contents hidden-xs hidden-sm'>" +
     "<h2>Sur cette page:</h2>" +
     "<ul>";
 
@@ -28,4 +28,4 @@ ToC +=
    "</ul>" +
   "</nav>";
 
-$(".all-questions").prepend(ToC);
+$("article").prepend(ToC);
