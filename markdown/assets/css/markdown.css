@@ -48,3 +48,8 @@ h3:target {
 	float: right;
 	margin-top : 14px;	
 }
+
+.fullimg {
+	max-width: 660px;
+	border : 2px solid #5091cd;
+}

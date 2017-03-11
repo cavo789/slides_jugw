@@ -127,7 +127,7 @@ foreach ($arr as $head)
 $summary=str_replace('<ul>','<ul class="fa-ul">',$summary);
 $summary=str_replace('<li>','<li><i class="fa-li fa fa-joomla"></i>',$summary);
 
-$summary=str_replace('<img src="','<img width="640px" src="../slides/'.$folder.'/',$summary);
+$summary=str_replace('<img src="','<img class="fullimg" src="../slides/'.$folder.'/',$summary);
 
 
 // And use our own template
