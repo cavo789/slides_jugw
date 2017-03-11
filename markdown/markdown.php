@@ -63,7 +63,7 @@ function getParam(string $name,	string $type = 'string', $default = '',	bool $ba
 } // function getParam()
 	
 // Max size 20	
-$folder=getParam('folder', 'string', '', false, 20);
+$folder=getParam('f', 'string', '', false, 20);
 // Sanitize : keep only letters, figures, minus and underscore; nothing else
 $folder = preg_replace('/[^-a-zA-Z0-9_]/', '', $folder);	
 
