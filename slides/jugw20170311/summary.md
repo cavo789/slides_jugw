@@ -4,7 +4,7 @@ La présentation générale de la journée se trouve sur https://slides.jugwallo
 
 ## Présentation sécurité - hacking
 
-<img src="img/jurgen.jpg"></img>
+<img src="img/jugw20170311.jpg"></img>
 
 La présentation de Jurgen est disponible sur Slideshare : https://www.slideshare.net/JurgenGaeremyn/l33t-h4x0rz.
 
@@ -75,18 +75,18 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 
 * https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
 * Which bugs have been fixed in Joomla! 3.7?
-	* A full list of issues resolved can be found on GitHub.
+  * A full list of issues resolved can be found on GitHub.
 * What’s new in Joomla! 3.7
-	* The big question is, what is new in Joomla! 3.7?
-	* Here are some of the new features…
-		* Custom Fields - Now you can add data fields (up to 16 different types) to your articles, user records and contacts
-		* Multilingual Associations Component - Allows you to easily translate your content from one interface
-		* Improved Workflow - Now you can create the category, article, and menu item all in one step (no more jumping between components/views)
-		* Improved Router - Get 'clean' URLs (without the ID) to help improve your SEO with one click of a button
-		* Admin Menu Manager - Manage the admin menu just like the front-end, create a different 'look' for each user group
-		* Do more with TinyMCE - New buttons allow you to easily add menu links, contacts and newsfeeds directly to articles and modules
-		* Easier Extension Maintenance - Allowing you to block administrators from accidentally uninstalling needed extension package pieces
-		* And many more ...
+  * The big question is, what is new in Joomla! 3.7?
+  * Here are some of the new features…
+    * Custom Fields - Now you can add data fields (up to 16 different types) to your articles, user records and contacts
+    * Multilingual Associations Component - Allows you to easily translate your content from one interface
+    * Improved Workflow - Now you can create the category, article, and menu item all in one step (no more jumping between components/views)
+    * Improved Router - Get 'clean' URLs (without the ID) to help improve your SEO with one click of a button
+    * Admin Menu Manager - Manage the admin menu just like the front-end, create a different 'look' for each user group
+    * Do more with TinyMCE - New buttons allow you to easily add menu links, contacts and newsfeeds directly to articles and modules
+    * Easier Extension Maintenance - Allowing you to block administrators from accidentally uninstalling needed extension package pieces
+    * And many more ...
 
 ### Joomla 3.7 > source JoomlaShack
 
@@ -119,32 +119,32 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 ### Joomla 3.8
 
 * https://developer.joomla.org/news/670-production-department-team-lead-meeting.html
-	* During the London Super Sprint, discussions regarding the 3.x end of support were started and a working plan was established that 3.8 will be the final release of the series. The department reaffirmed it supports this plan as long as 4.0 releases close to 3.8. Given the current plan for 3.8 and 4.0, the department coordinator states that the two releases should come simultaneously and as such this should not be an issue. Per the current project development strategy, a proper announcement of this must be published six months before 3.8.0 is released. Some discussion on the release timeline started, the department coordinator believes that 3.8 and 4.0 will probably not reach a stable milestone until at least six months after 3.7 is released. The department will work on the required announcement and publish it per the development strategy.
-	* Project Roadmap : A weakness the department’s teams has identified is the lack of a cohesive roadmap as it relates to the CMS or Framework’s development. Even with the upcoming 4.0 release, there are several teams and individuals working on several projects or having different visions for what the release should include or how to make the transition. Also, the 4.0 branch now has over 1200 commits to it with several feature changes without any clear documentation on the changes. In general, this area of discussion was broken down into several distinct sections for discussion.
+  * During the London Super Sprint, discussions regarding the 3.x end of support were started and a working plan was established that 3.8 will be the final release of the series. The department reaffirmed it supports this plan as long as 4.0 releases close to 3.8. Given the current plan for 3.8 and 4.0, the department coordinator states that the two releases should come simultaneously and as such this should not be an issue. Per the current project development strategy, a proper announcement of this must be published six months before 3.8.0 is released. Some discussion on the release timeline started, the department coordinator believes that 3.8 and 4.0 will probably not reach a stable milestone until at least six months after 3.7 is released. The department will work on the required announcement and publish it per the development strategy.
+  * Project Roadmap : A weakness the department’s teams has identified is the lack of a cohesive roadmap as it relates to the CMS or Framework’s development. Even with the upcoming 4.0 release, there are several teams and individuals working on several projects or having different visions for what the release should include or how to make the transition. Also, the 4.0 branch now has over 1200 commits to it with several feature changes without any clear documentation on the changes. In general, this area of discussion was broken down into several distinct sections for discussion.
 
 ### Joomla 4.0 dev
 
 * Pour télécharger dernière version 4 : 
-	* https://developer.joomla.org/nightly-builds.html
-	* https://github.com/joomla/joomla-cms/tree/4.0-dev
-	* https://github.com/joomla/joomla-cms/milestone/5 
-	* https://pcmshaper.com/blog/news/joomla-4-0-or-next-joomla-platform-roadmap
+  * https://developer.joomla.org/nightly-builds.html
+  * https://github.com/joomla/joomla-cms/tree/4.0-dev
+  * https://github.com/joomla/joomla-cms/milestone/5 
+  * https://pcmshaper.com/blog/news/joomla-4-0-or-next-joomla-platform-roadmap
 * https://github.com/joomla/joomla-cms/milestone/5 
 * https://pcmshaper.com/blog/news/joomla-4-0-or-next-joomla-platform-roadm
 * Documentation
-	* Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
-	* Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
-	* Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
-	* JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
-	* JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI
+  * Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
+  * Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
+  * Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
+  * JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
+  * JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI
 
 ### Media Manager
 
 * pour suivre le Media Manager, c'est ici :  
-https://github.com/joomla-projects/media-manager-improvement  
-(et il doit y avoir une salle sur Glip)
+  https://github.com/joomla-projects/media-manager-improvement  
+  (et il doit y avoir une salle sur Glip)
 * roadmap (pas sûr qu'elle soit à jour) 
-https://github.com/joomla-projects/media-manager-improvement/wiki 
+  https://github.com/joomla-projects/media-manager-improvement/wiki 
 
 ### Joomla X
 
