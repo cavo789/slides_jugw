@@ -48,7 +48,17 @@ Jurgen recommande l'utilisation de logiciel type VPN qui permettent de crypter t
 * Et, last but not least, éduquez votre ... PEBCAK (https://fr.wiktionary.org/wiki/PEBCAK),
 * ...
 
-Lire aussi le [GUIDE D’HYGIÈNE INFORMATIQUE / Renforcer la sécurité de son système d'information en 42 mesures](https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf)
+### Quelques lectures
+
+Si vous souhaitez approfondir la question de la sécurité, voici quelques liens : 
+
+
+-  [Agence national de la sécurité des systèmes d'information](https://www.ssi.gouv.fr/) (France). L'ANSI propose différents guides sur la sécurité dont, entre autre, 
+
+   -  le [GUIDE D’HYGIÈNE INFORMATIQUE / Renforcer la sécurité de son système d'information en 42 mesures](https://www.ssi.gouv.fr/uploads/2017/01/guide_hygiene_informatique_anssi.pdf) (janvier 2017)
+   -  [Sécurisation d'un site web](https://www.ssi.gouv.fr/guide/recommandations-pour-la-securisation-des-sites-web/) (août 2013)
+-  Les [CERT](https://fr.wikipedia.org/wiki/Computer_emergency_response_teams) (Computer Emergency Response Teams) dont le belge : https://www.cert.be/
+-  Alertes de sécurité : http://www.cert.ssi.gouv.fr/
 
 ## Présentation Joomla 3.7 / Preview Joomla 4
 
@@ -75,10 +85,10 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 
 * https://developer.joomla.org/news/671-joomla-3-7-beta-3-released-for-testing.html 
 * Which bugs have been fixed in Joomla! 3.7?
-  * A full list of issues resolved can be found on GitHub.
+* A full list of issues resolved can be found on GitHub.
 * What’s new in Joomla! 3.7
-  * The big question is, what is new in Joomla! 3.7?
-  * Here are some of the new features…
+* The big question is, what is new in Joomla! 3.7?
+* Here are some of the new features…
     * Custom Fields - Now you can add data fields (up to 16 different types) to your articles, user records and contacts
     * Multilingual Associations Component - Allows you to easily translate your content from one interface
     * Improved Workflow - Now you can create the category, article, and menu item all in one step (no more jumping between components/views)
@@ -132,11 +142,11 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 * https://github.com/joomla/joomla-cms/milestone/5 
 * https://pcmshaper.com/blog/news/joomla-4-0-or-next-joomla-platform-roadm
 * Documentation
-  * Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
-  * Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
-  * Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
-  * JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
-  * JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI
+* Le readme sur https://github.com/joomla/joomla-cms/tree/4.0-dev (cf supra)
+* Le manifeste : https://developer.joomla.org/news/658-joomla4-manifesto.html
+* Autre page : https://pcmshaper.com/.../joomla-4-0-or-next-joomla...
+* JWC 2016 (27/11/2016) > The future of Joomla by Marco Dings(en particulier àpd min. 22) en principe, alpha prévue pour J&Beyond en juin 2017 https://www.youtube.com/watch?v=3k2OoGRCXKo&list=PL0Lg2fzcJu1SW0bg1_x0dhV0C8ZfifIWq&index=25&t=6s
+* JoomlaDay UK 2016 (13/02/2016) > Joomla future by Chris Davenport (plutôt sur 3.6) https://www.youtube.com/watch?v=VfLdv6vKiBI
 
 ### Media Manager
 
