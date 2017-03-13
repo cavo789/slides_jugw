@@ -30,11 +30,18 @@ Transmettre un email via WIFI avec un protocole non sécurisé comme POP ou SMTP
 
 Jurgen recommande l'utilisation de logiciel type VPN qui permettent de crypter toute l'échange entre votre appareil et le réseau.
 
-### Testing tools
+### Outils d'analyse
 
-**Qualys SSL Labs**, interface internet permettant de vérifier la sécurisation de son site et de son certificat.
+* [Qualys SSL Labs](https://www.ssllabs.com/), interface internet permettant de vérifier la sécurisation de son site et de son certificat.
+* Pour analyser ses logs Apache : 
+  * [Log Parser Lizard GUI](http://www.lizard-labs.com/log_parser_lizard.aspx), outil gratuit permettant de faire des requêtes (queries) SQL sur les logs,
+  * [Log Parser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659) de Microsoft,
+  * [Visual Log Parser](http://visuallogparser.codeplex.com/), outil disponible sur CodePlex et qui exploite Log Parser de Microsoft,
+  * [LOGalyze](http://www.logalyze.com/),  gratuit,
+  * [LOG expert](http://www.log-expert.de/)
+  * ...
 
-*Information : dans l'hypothèse où vous trouvez une faille sur un site web, il est possible de mentionner cet incident auprès du [CERT](https://cert.be).*
+
 
 ### Quelques recommandations :
 
@@ -160,3 +167,9 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 
 * https://github.com/joomla-projects/joomla-pythagoras
 * et voir présentation de Marco Dings @ JWC 2016 : https://www.youtube.com/watch?v=3k2OoGRCXKo
+
+
+
+------
+
+*Personnes ayant participés à la rédaction de ce compte-rendu : Christophe Avonture, Marc Dechèvre, Jean-Luc Bourgogne et Eric Gheur. Merci !*
