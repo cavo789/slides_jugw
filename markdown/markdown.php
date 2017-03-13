@@ -62,6 +62,30 @@ function getParam(string $name,	string $type = 'string', $default = '',	bool $ba
 	return $return;
 } // function getParam()
 	
+/**
+* Return the current URL
+*
+* @param type $use_forwarded_host
+* @param type $bNoScriptName     If FALSE, only return the URL and folders name but no
+*                                script name (f.i. remove index.php and parameters if any)
+* @return type string
+*/
+function getCurrentURL(bool $use_forwarded_host = false, bool $bNoScriptName = false) : string
+{
+	$ssl      = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on');
+	$sp       = strtolower($_SERVER['SERVER_PROTOCOL']);
+	$protocol = substr($sp, 0, strpos($sp, '/')) . (($ssl)?'s':'');
+	$port     = $_SERVER['SERVER_PORT'];
+	$port     = ((!$ssl && $port=='80') || ($ssl && $port=='443')) ? '' : ':'.$port;
+	$host     = ($use_forwarded_host && isset($_SERVER['HTTP_X_FORWARDED_HOST']))
+	   ? $_SERVER['HTTP_X_FORWARDED_HOST']
+	   : (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null);
+	$host     = isset($host) ? $host : $_SERVER['SERVER_NAME'].$port;
+	
+	return $protocol.'://'.$host.($bNoScriptName===true?dirname($_SERVER['REQUEST_URI']).
+	   '/':$_SERVER['REQUEST_URI']);
+} // function getCurrentURL
+
 // Max size 20	
 $folder=getParam('f', 'string', '', false, 20);
 // Sanitize : keep only letters, figures, minus and underscore; nothing else
@@ -131,11 +155,20 @@ $summary=str_replace('<li>','<li><i class="fa-li fa fa-joomla"></i>',$summary);
 
 $summary=str_replace('<img src="','<img class="fullimg hidden-xs hidden-sm" src="../slides/'.$folder.'/',$summary);
 
+// URL for the image.  Standard name will be : 
+//    https://URL/slides/jugw20170311/img/jugw20170311.jpg
+//
+// where "jugw20170311" is the name of the folder.  So, the file should be named jugw20170311.jpg
+
+$og_img=dirname(getCurrentURL(false,true)).'/slides/'.$folder.'/img/'.$folder.'.jpg';
 
 // And use our own template
 $tmpl=file_get_contents('screen.php');
 $html=str_replace('%CONTENT%',$summary,$tmpl);
 $html=str_replace('%TITLE%',$title,$html);
+$html=str_replace('%URL_IMG%',$og_img,$html);
+$html=str_replace('%URL%',getCurrentURL(),$html);
+
 
 // And output the html
 echo $html;

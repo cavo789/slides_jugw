@@ -5,10 +5,24 @@
 
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="robots" content="noindex, nofollow" />
+		<meta name="robots" content="index, follow" />
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8;" /> 
-
+		<meta name="author" content="JUG Wallonie" />
+		<meta name="designer" content="JUG Wallonie" />
+		<meta name="keywords" content="%TITLE%" />
+		<meta name="description" content="%TITLE%" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />   
+		<meta property="og:url" content="%URL%" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="%URL_IMG%" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="522" />
+		<meta property="og:title" content="%TITLE%" />
+		<meta property="og:site_name" content="Comptes-rendus | www.jugwallonie.be" />
+		<meta property="og:description" content="%TITLE%" />
+		
 		<title>%TITLE%</title>
 
 		<link href= "data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAPv/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREiIAAAAAERESIiAAAAARERIiIgAAABEREiIiAAAAERESIiIAAAARERIiIgAAABEREiIiAAAAERESIiIAAAARERIiIgAAABEREiIiAAAAERESIiIAAAARERIiIgAAABEREiIiAAAAERESIiIAAAAQAAAAIgAAAAAAAAACB+BwAAOAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAIP5AADH/QAA" rel="shortcut icon" type="image/vnd.microsoft.icon"/>      
