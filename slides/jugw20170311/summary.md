@@ -35,6 +35,7 @@ Jurgen recommande l'utilisation de logiciel type VPN qui permettent de crypter t
 * [Qualys SSL Labs](https://www.ssllabs.com/), interface internet permettant de vérifier la sécurisation de son site et de son certificat.
 * Pour analyser ses logs Apache : 
   * [Log Parser Lizard GUI](http://www.lizard-labs.com/log_parser_lizard.aspx), outil gratuit permettant de faire des requêtes (queries) SQL sur les logs,
+  * [Forensic Log Parsing with Microsoft's LogParser](https://www.symantec.com/connect/articles/forensic-log-parsing-microsofts-logparser), article de Symantec expliquant commen utiliser l'outil Log Parser de Microsoft,
   * [Log Parser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659) de Microsoft,
   * [Visual Log Parser](http://visuallogparser.codeplex.com/), outil disponible sur CodePlex et qui exploite Log Parser de Microsoft,
   * [LOGalyze](http://www.logalyze.com/),  gratuit,
@@ -167,7 +168,6 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 
 * https://github.com/joomla-projects/joomla-pythagoras
 * et voir présentation de Marco Dings @ JWC 2016 : https://www.youtube.com/watch?v=3k2OoGRCXKo
-
 
 
 ------
