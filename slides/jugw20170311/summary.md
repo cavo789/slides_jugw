@@ -168,6 +168,7 @@ Joomla 4 vient avec une toute nouvelle interface d'administration avec un nouvea
 
 *   https://github.com/joomla-projects/joomla-pythagoras
 *   et voir présentation de Marco Dings @ JWC 2016 : https://www.youtube.com/watch?v=3k2OoGRCXKo
-------
+
+-----
 
 *Personnes ayant participés à la rédaction de ce compte-rendu : Christophe Avonture, Marc Dechèvre, Jean-Luc Bourgogne et Eric Gheur. Merci !*
