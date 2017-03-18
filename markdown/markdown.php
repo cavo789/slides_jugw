@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
 * Safely read posted variables
@@ -8,12 +8,12 @@
 * @param type $default       f.i. "default"
 * @return type
 */
-function getParam(string $name,	string $type = 'string', $default = '',	bool $base64 = false,int $maxsize = 0) 
+function getParam(string $name,	string $type = 'string', $default = '',	bool $base64 = false,int $maxsize = 0)
 {
-  
+
 	$tmp='';
 	$return=$default;
-  
+
 	if (isset($_POST[$name])) {
 		if (in_array($type, array('int','integer'))) {
 			$return=filter_input(INPUT_POST, $name, FILTER_SANITIZE_NUMBER_INT);
@@ -33,7 +33,7 @@ function getParam(string $name,	string $type = 'string', $default = '',	bool $ba
 			$return=$_POST[$name];
 		}
 	} else { // if (isset($_POST[$name]))
- 
+
 		if (isset($_GET[$name])) {
 			if (in_array($type, array('int','integer'))) {
 				$return=filter_input(INPUT_GET, $name, FILTER_SANITIZE_NUMBER_INT);
@@ -54,14 +54,14 @@ function getParam(string $name,	string $type = 'string', $default = '',	bool $ba
 			}
 		} // if (isset($_GET[$name]))
 	} // if (isset($_POST[$name]))
-  
+
 	if ($type=='boolean') {
 		$return=(in_array($return, array('on','1'))?true:false);
 	}
-  
+
 	return $return;
 } // function getParam()
-	
+
 /**
 * Return the current URL
 *
@@ -81,17 +81,17 @@ function getCurrentURL(bool $use_forwarded_host = false, bool $bNoScriptName = f
 	   ? $_SERVER['HTTP_X_FORWARDED_HOST']
 	   : (isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : null);
 	$host     = isset($host) ? $host : $_SERVER['SERVER_NAME'].$port;
-	
+
 	return $protocol.'://'.$host.($bNoScriptName===true?dirname($_SERVER['REQUEST_URI']).
 	   '/':$_SERVER['REQUEST_URI']);
 } // function getCurrentURL
 
-// Max size 20	
+// Max size 20
 $folder=getParam('f', 'string', '', false, 20);
 // Sanitize : keep only letters, figures, minus and underscore; nothing else
-$folder = preg_replace('/[^-a-zA-Z0-9_]/', '', $folder);	
+$folder = preg_replace('/[^-a-zA-Z0-9_]/', '', $folder);
 
-if (!file_exists($filename=dirname(dirname(__FILE__)).'/slides/'.$folder.'/summary.md')) 
+if (!file_exists($filename=dirname(dirname(__FILE__)).'/slides/'.$folder.'/summary.md'))
 {
 	die('Sorry, the file '.$folder.'/summary.md doesn\'t exists.');
 }
@@ -128,17 +128,17 @@ try {
 $matches=array();
 $arr=array('h2','h3');
 
-foreach ($arr as $head) 
+foreach ($arr as $head)
 {
 
-	try {	
+	try {
 		preg_match_all('/<'.$head.'>(.*)<\/'.$head.'>/', $summary, $matches);
 		if (count($matches[1])>0) {
-			
+
 			$i=0;
-			
+
 			$goTop='<a class="btnTop" href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>';
-			
+
 			foreach ($matches[1] as $key=>$value)
 			{
 				$i+=1;
@@ -155,7 +155,7 @@ $summary=str_replace('<li>','<li><i class="fa-li fa fa-joomla"></i>',$summary);
 
 $summary=str_replace('<img src="','<img class="fullimg hidden-xs hidden-sm" src="../slides/'.$folder.'/',$summary);
 
-// URL for the image.  Standard name will be : 
+// URL for the image.  Standard name will be :
 //    https://URL/slides/jugw20170311/img/jugw20170311.jpg
 //
 // where "jugw20170311" is the name of the folder.  So, the file should be named jugw20170311.jpg
